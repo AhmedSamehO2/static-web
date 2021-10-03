@@ -1,0 +1,285 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    background-color: #fff
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: white;
+    margin-right: 10PX;
+}
+
+.member
+{
+    background-image: url(images/intro-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-bottom: 5%;
+}
+.member-caption
+{
+    text-align: center;
+    color: white;
+}
+.member-caption h1
+{
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+#btnUp
+{
+    
+    border-radius: 50%;
+    padding: 10px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 458;
+    font-size: 30px;
+    display: none;
+    
+}
+#sideBar
+{
+    position: fixed;
+    top: 150px;
+    left: 0px;
+    z-index: 95984;
+    float: left;
+}
+#colorBox
+{
+    background-color: gray;
+    
+    float: left;
+    padding: 15px;
+
+}
+
+.colorItem
+{
+    background-color: cadetblue;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+
+    cursor: pointer;
+}
+
+#sideBarToggle
+{
+    
+    padding: 10px;
+    color: wheat;
+    font-size: 20px;
+    background-color: rgb(31, 29, 29);
+    cursor: pointer;
+}
+.first
+{
+    margin-top: 40px;
+    padding: 20px;
+}
+.layer
+{
+
+    flex-direction: column;
+    
+    
+}
+.layer h1
+{
+    font-size: 20px;
+}
+.layer p
+{
+    font-size: 15px;
+    color: gray;
+    margin-left: 5px;
+}
+.logo h6
+{
+    color: gray;
+    font-weight: 100;
+}
+.logo p
+{
+    color: gray;
+    margin-left: 5px;
+    font-weight: 100;
+}
+.word
+{
+    margin-top: 90px;
+}
+.word h1
+{
+    margin-bottom: 40px;
+  
+}
+.brder
+{
+    width: 120px;
+    height: 3px;
+    background-color:#0078ff ;
+    
+}
+.word p
+{
+    padding: 25px;
+    font-size: 23px;
+    font-weight: 100;
+}
+.circil-icon
+{
+    font-size: 35px;
+    padding: 20px;
+    border: solid 8px #0078ff;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+.circil-icon:hover
+{
+    background-color:#0078ff ;
+    color: white;
+    border: solid 8px rgb(240, 234, 234); 
+}
+
+.photo
+{
+    background-image: url(images/post-3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+
+
+.item
+{
+    background-color: rgba(10, 125, 255, 0.6);
+       
+}
+.item h3
+{
+    color: white;
+    margin-top: 5px;
+}
+.item h5
+{
+    color: white;
+}
+.second img
+{
+    transition: transform 1s;
+}
+.plus
+{
+    margin-left: 100px;
+    font-size: 30px;
+    color: #0078ff ;
+}
+.second img:hover 
+{
+    transform: scale(1.1,1.1);
+}
+.client
+{
+    background-image: url(images/overlay-bg.jpg);
+    height: 500px;
+    background-size: cover;
+    margin-top: 5%;
+    
+
+}
+.client img
+{
+    width: 180px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-top: 5%;
+}
+.test
+{
+    background-color: rgba(10, 125, 255, 0.6);   
+    height: 100%;
+}
+
+
+.client h2
+{
+    color: white;
+}
+.test p
+{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+.carousel-indicators li
+{
+   height: 20px;
+   background-color: black;
+   
+   
+   bottom: 5px;
+   
+}
+.img-over
+{
+    position: absolute;
+   left: 40%;
+   bottom: -12;
+   color: white;
+   background-color:#0078ff ;
+   padding: 5px 5px;
+   border-radius: 15%;
+}
+
+.phone img
+{
+    border-radius: 50%;
+}
+.phone p
+{
+    margin-left: 30%;
+}
+
+.list
+{
+padding: 80px 60px;
+}
+.finally
+{
+margin: 5%;
+    
+}
+.circil
+{
+    font-size: 20px;
+    padding: 10px;
+    border: solid 4px #0078ff;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+.circil:hover
+{
+    background-color:#0078ff ;
+    color: white;
+    border: solid 4px rgb(240, 234, 234); 
+}
+.semo
+{
+    height: 15vh;
+    background-color: #0078ff;
+    color: white;
+}
